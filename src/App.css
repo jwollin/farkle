@@ -1,0 +1,102 @@
+.app {
+  background-color: #282c34;
+  min-height: 100vh;
+  color: white;
+}
+
+body {
+  margin: 0;
+  font-family: 'helvetica';
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+h1, h2, h3, h4, h5 {
+  font-weight: bolder;
+}
+
+.scoreboard-row {
+  padding: 10px 0;
+  border-top: 1px solid #777;
+}
+
+.score-name {
+  margin-left: .75rem;
+}
+
+.form-control.-dark {
+  background-color: #282c34;
+  color: #fff;
+}
+
+.btn.-dark {
+  background-color: #282c34;
+}
+
+.btn.-teal {
+  color: #17a2b8;
+}
+.btn.-add-player {
+  position: absolute;
+  top: 24px;
+  right: 4px;
+  border-radius: 0 4px 4px 0;
+}
+
+.btn.-remove {
+  color: #17a2b8;
+  font-size: 16px;
+  float: right;
+  margin-top: 0;
+  border-radius: 50%;
+  border: 1px solid #17a2b8;
+  padding: 0 6px;
+  font-weight: bolder;
+}
+
+.btn.-remove:hover,
+.btn.-remove:focus,
+.btn.-remove:active {
+  text-decoration: none;
+  color: #282c34;
+  background: #17a2b8;
+  font-weight: bolder;
+}
+
+.btn.-input {
+  position: absolute;
+  right: 15px;
+  top: 0;
+  font-weight: bolder;
+  border: none;
+  color: white;
+  padding: 7px 15px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  border-radius: 0 4px 4px 0;
+}
+
+.checkmark {
+  display: inline-block;
+}
+
+.checkmark:after{
+ content: '';
+ display: block;
+
+ width: 7px;
+ height: 12px;
+
+ border: solid #fff;
+ border-width: 0 3px 3px 0;
+ transform: rotate(45deg);
+}
+
+hr {
+  border-top: 1px solid #777;
+}
+
+.die {
+  width: 50px;
+}
